@@ -1,7 +1,7 @@
 version: 2.1
 
 commands:
-   install_awscli:
+  install_awscli:
     description: Install AWS CLI v2
     steps:
       - run:
@@ -246,7 +246,6 @@ jobs:
               curl https://kvdb.io/AEg25YHTyaGj2iK4AiHHFc/migration_${CIRCLE_WORKFLOW_ID:0:7}  -d '1'
             fi
       - destroy-environment
-
 
 #   deploy-frontend:
 #     docker:
