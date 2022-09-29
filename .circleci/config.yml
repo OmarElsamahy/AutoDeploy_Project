@@ -232,10 +232,12 @@ jobs:
 
   run-migrations:
     docker:
-      - image: cimg/node:13.8.0
+      - image: circleci/node:13.8.0
     steps:
       - checkout
       - install_awscli
+      - attach_workspace:
+          at: ~/
       - run:
           name: Run migrations
           command: |
