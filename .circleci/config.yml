@@ -266,7 +266,7 @@ jobs:
       - install_ansible
       - install_nodejs
       - add_ssh_keys:
-          fingerprints: ["d8:16:dc:fd:bd:a2:fb:01:8f:15:dd:55:20:dc:cd:7e"]
+          fingerprints: ["d9:06:93:7c:dd:ac:25:bf:3d:f3:10:f5:5d:69:f6:67"]
       - attach_workspace:
           at: ~/
       - restore_cache:
@@ -330,8 +330,8 @@ jobs:
             else
               exit 1
             fi
-      # - destroy-environment
-      # - revert-migrations
+      - destroy-environment
+      - revert-migrations
 
   cloudfront-update:
     docker:
