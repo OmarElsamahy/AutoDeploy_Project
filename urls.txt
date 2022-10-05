@@ -1,0 +1,5 @@
+1- https://github.com/OmarElsamahy/AutoDeploy_Project
+2- http://udapeople-ea594f2.s3-website-us-east-1.amazonaws.com/#/employees
+3- screenshot of cloudfront https://drtffboux60nd.cloudfront.net
+4- http://44.204.146.42:3030/api/status
+5- http://ec2-3-80-91-123.compute-1.amazonaws.com:9090/alerts
